@@ -235,6 +235,7 @@ namespace Puzzle16
             {
                 MessageBox.Show("Congratulations!"); // できていたらメッセージ表示
                 SetupCells(); // メッセージダイアログのOKボタンを押したら、次のゲーム開始
+                Shuffle();
                 Refresh();
             }
         }
